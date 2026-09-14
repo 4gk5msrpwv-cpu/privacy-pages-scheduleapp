@@ -15,11 +15,14 @@ h1{font-size:24px;margin:0 0 6px}
 h2{font-size:18px;margin:28px 0 8px;border-left:4px solid var(--accent);padding-left:10px}
 h3{font-size:15px;margin:14px 0 4px}
 p,li{margin:7px 0}
-.meta,.langs,.footer{color:var(--fg2);font-size:13px}
+.meta,.langs,.nav,.footer{color:var(--fg2);font-size:13px}
+.nav{margin:6px 0 0}
+.nav a{color:var(--accent);text-decoration:none;margin-right:14px}
 .langs{margin:10px 0 0}
 .langs a{color:var(--accent);text-decoration:none;margin-right:2px}
 blockquote{background:var(--quote);border-left:4px solid var(--fg2);margin:14px 0;padding:10px 14px;border-radius:6px}
 a{color:var(--accent)}
+code{background:var(--quote);padding:1px 5px;border-radius:4px;font-size:13px}
 .footer{margin-top:36px;border-top:1px solid var(--border);padding-top:12px}
 </style>
 </head>
@@ -27,16 +30,42 @@ a{color:var(--accent)}
 <div class="wrap">
 <h1>📅 ScheduleApp 개인정보 처리방침 및 지원</h1>
 <p class="meta">시행일: 2026-09-14 ｜ 개발자: Frank Zhou ｜ 문의: your.scheduleapp@outlook.com</p>
+<p class="nav"><a href="#privacy">개인정보 처리방침</a><a href="#faq">지원 및 자주 묻는 질문</a></p>
 <p class="langs">언어: <a href="/privacy-pages-scheduleapp/">English</a> · <a href="/privacy-pages-scheduleapp/zh-Hans/">简体中文</a> · <a href="/privacy-pages-scheduleapp/zh-Hant/">繁體中文</a> · <a href="/privacy-pages-scheduleapp/ja/">日本語</a> · <a href="/privacy-pages-scheduleapp/es/">Español</a> · <a href="/privacy-pages-scheduleapp/pt-BR/">Português (BR)</a> · <a href="/privacy-pages-scheduleapp/fr/">Français</a> · <a href="/privacy-pages-scheduleapp/de/">Deutsch</a> · <a href="/privacy-pages-scheduleapp/ko/">한국어</a> · <a href="/privacy-pages-scheduleapp/ru/">Русский</a></p>
-<blockquote><b>요약:</b> ScheduleApp은 <b>개인정보를 전혀 수집하지 않습니다</b>. 계정 체계도, 개발자 서버도, 광고·분석 SDK도 없습니다. 일정·할 일·알림은 <b>오직 사용자 자신의 iCloud</b>(Apple CloudKit)에만 저장됩니다. 가족 공유는 Apple의 iCloud 공유 기능으로 이루어지며, 개발자는 데이터를 읽거나 내보낼 수 없습니다.</blockquote>
+<blockquote><b>요약:</b> ScheduleApp은 <b>개인정보를 전혀 수집하지 않습니다</b>. 계정 체계도, 개발자 서버도, 광고·분석 SDK도 없습니다. 일정·할 일·알림 설정은 <b>사용자 자신의 iCloud 개인 데이터베이스</b>(Apple CloudKit)에만 저장되며, 가족 공유는 Apple의 CloudKit 공유 기능(CKShare)으로 이루어집니다. <b>개발자는 데이터를 읽거나 내보낼 수 없습니다</b>.</blockquote>
 
 <h2 id="privacy">개인정보 처리방침</h2>
-('<h3>1. 데이터는 어디에 저장되나요?</h3><ul>\n<li>생성한 일정·할 일·알림 설정은 <b>사용자 본인의 iCloud 개인 데이터베이스</b>(Apple CloudKit)에만 저장됩니다.</li>\n<li>가족 그룹을 만들면 공유 일정은 Apple이 제공하는 iCloud 공유 데이터베이스에 저장되며, 초대한 가족만 볼 수 있습니다.</li>\n<li>앱을 삭제하거나 iCloud에서 로그아웃해도 데이터는 <b>사용자의</b> iCloud 계정에 그대로 속하며, Apple을 통해 직접 관리·삭제할 수 있습니다.</li>\n</ul><h3>2. 사용자를 어떻게 구분하나요?</h3><ul>\n<li><b>별도의 계정 체계가 없습니다</b>. 앱은 Apple이 제공하는 익명 iCloud 레코드 이름으로 가족을 구분하며, 이름·이메일·전화번호를 포함하지 않습니다.</li>\n<li>전화번호를 수집하지 않고 SMS 인증도 사용하지 않습니다.</li>\n</ul><h3>3. 권한 안내</h3><ul>\n<li><b>알림</b> — 로컬 정시 알림용. 시스템 설정에서 언제든 끌 수 있습니다.</li>\n<li><b>iCloud</b> — 동기화와 가족 공유용. 꺼도 단독으로 사용할 수 있습니다.</li>\n<li>위치·연락처·카메라·마이크·사진 권한은 <b>요청하지 않습니다</b>.</li>\n</ul><h3>4. 서드파티 서비스</h3><ul>\n<li><b>Apple iCloud(CloudKit)</b> — 저장과 동기화의 유일한 제공자이며 Apple 개인정보 처리방침의 적용을 받습니다.</li>\n<li>그 외 서드파티 SDK·광고·분석은 전혀 없습니다.</li>\n</ul><h3>5. 추적 및 광고</h3><ul>\n<li>사용자 추적 없음, 추적 도메인 없음, 광고 없음 — 앱 개인정보 명세(PrivacyInfo.xcprivacy)로 App Store에 선언되어 있습니다.</li>\n</ul>',)
+<h3>1. 개요</h3><p>ScheduleApp은 가정용 일정·할 일 관리 앱으로, 일정 작성, 정시 알림, 가족 그룹 공유, 홈 화면 위젯/라이브 액티비티 표시 등을 제공합니다. 개인 개발자(Frank Zhou)가 독립적으로 개발했으며 <b>자체 서버나 백엔드 데이터베이스가 없습니다</b>. 본 방침은 우리가(사실상: 전혀 하지 않는) 정보 처리 방식을 설명합니다.</p><h3>2. 수집하는 정보: 없음</h3><p>ScheduleApp은 <b>개인정보를 전혀 수집하지 않습니다</b>. 구체적으로:</p><ul>
+<li><b>회원가입·로그인 없음.</b> 앱에 계정 체계가 없습니다. 이름, 이메일, 전화번호, 연락처, 위치, 사진 또는 그 어떤 식별자도 요청하거나 받지 않습니다. 가족 구성원은 Apple이 제공하는 익명 iCloud 레코드 이름으로만 구분되며, 이름·이메일·전화번호를 포함하지 않습니다.</li>
+<li><b>데이터는 사용자의 iCloud에만 저장.</b> 작성한 일정, 할 일, 알림 설정은 사용자 본인 Apple ID의 iCloud 개인 데이터베이스(Apple CloudKit, 컨테이너 <code>iCloud.com.frankzhou.ScheduleApp</code>)에 저장됩니다. 데이터는 사용자의 소유이며 Apple이 보관하고, <b>개발자는 접근·읽기·내보내기 모두 불가능합니다</b>.</li>
+<li><b>가족 그룹 공유</b>는 Apple CloudKit 공유 기능(CKShare)으로 구현됩니다. 직접 만든 일정은 사용자의 iCloud 개인 데이터베이스에 저장되며, 가족 그룹에 게시했을 때만 Apple이 제공하는 iCloud 공유 데이터베이스에 들어가 초대한 가족만 볼 수 있습니다. 공유 범위는 전적으로 사용자가 관리하며 언제든 중지할 수 있습니다.</li>
+</ul><p><b>기기 기능과 시스템 권한:</b></p><ul>
+<li><b>알림</b> — 사용자가 직접 설정한 로컬 정시 알림(일정/할 일 알람) 전용입니다. 광고나 마케팅 콘텐츠가 없습니다. 원격(무음) 알림은 <b>iCloud 동기화의 트리거</b>로만 사용되며, 눈에 보이는 알림을 표시하거나 일정 내용을 담지 않습니다.</li>
+<li><b>위젯 및 라이브 액티비티</b> — 위젯과 잠금 화면 데이터는 기기 내 App Group 컨테이너를 통해 앱과 위젯 사이에서 전달됩니다. 기기를 벗어나지 않고 서버로 업로드되지 않습니다.</li>
+<li><b>요청하지 않는 권한</b> — 위치·연락처·카메라·마이크·사진 보관함·앱 추적 권한을 요청하지 않습니다. 이 외의 권한 선언은 없습니다.</li>
+</ul><h3>3. 서드파티·추적·광고: 모두 없음</h3><ul>
+<li><b>서드파티 코드 전혀 없음</b> — 광고 SDK, 분석 SDK, 크래시 리포트, 어트리뷰션, 마케팅 푸시 구성 요소 등 어떤 서드파티 SDK에도 의존하지 않습니다.</li>
+<li><b>추적 없음</b> — IDFA 없음, 앱 추적 투명성 동의 요청 없음, 앱·사이트 간 추적 없음, 추적 쿠키·기기 핑거프린트·로컬 식별자 없음.</li>
+<li><b>사용자 데이터를 절대 판매·공유·거래하지 않으며</b>, 어떠한 형태의 데이터 수익화도 하지 않습니다. 광고나 사용자 프로파일링에도 사용하지 않습니다.</li>
+<li><b>모든 네트워크 통신은 Apple 서비스로</b> — 이 방침 페이지를 불러오는 것을 제외하면 앱의 모든 네트워크 통신은 iCloud/CloudKit 동기화이며, <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple 개인정보 처리방침</a>의 적용을 받습니다. 이 페이지는 서드파티 정적 호스팅(GitHub Pages)에 호스팅되며, 이 페이지를 불러오는 것이 Apple이 아닌 서비스에 대한 앱의 유일한 네트워크 요청이고, 계정이나 기기 식별자를 전혀 전송하지 않습니다.</li>
+<li>앱 개인정보 명세(PrivacyInfo.xcprivacy)를 통해 사용자를 추적하지 않고 추적 도메인을 사용하지 않는다고 App Store에 선언했습니다.</li>
+</ul><h3>4. 아동 개인정보 보호</h3><ul>
+<li>ScheduleApp은 일반 대상 가족용 도구입니다. 아동 대상으로 설계된 앱이 아니며, 특정 연령 미만 아동을 대상으로 마케팅하지도 않습니다.</li>
+<li><b>본 앱은 누구의(아동 포함) 개인정보도 수집하지 않습니다.</b> 아동이 만든 일정과 할 일도 그 아동(또는 보호자) 본인의 iCloud 계정에만 저장되며, 개발자는 접근할 수 없습니다.</li>
+<li>보호자가 Apple「가족 공유」로 아동용 Apple ID를 만들어 관리하는 경우 그 계정은 Apple 규칙을 따르며, 공유는 보호자 관리 하에 있고 언제든 중지할 수 있습니다.</li>
+<li>우리가 모르게 아동의 정보를 수집했다고 생각되시면(본 앱 구조상 발생할 수 없음) your.scheduleapp@outlook.com로 연락 주세요. 즉시 삭제해 드립니다.</li>
+</ul><h3>5. 데이터 저장·보안·삭제</h3><ul>
+<li>모든 데이터는 사용자 Apple ID의 iCloud 계정 안에 있으며 Apple의 암호화와 접근 통제로 보호됩니다. 서버 측 사본은 일절 보관하지 않습니다. (중국 본토 Apple ID의 iCloud 데이터는 Apple의 중국 클라우드 운영사 GCBD(云上贵州)가 Apple 정책에 따라 운영합니다.)</li>
+<li><b>앱을 삭제해도 iCloud 데이터는 자동으로 삭제되지 않습니다</b>(새 기기에서 복원할 수 있도록). 전부 삭제하려면: iPhone/iPad에서 <i>설정 → [본인 Apple ID] → iCloud → 계정 저장 공간 관리 → ScheduleApp → 데이터 삭제</i>로 이동하거나, 앱 안에서 일정/할 일과 가족 그룹을 삭제하거나, your.scheduleapp@outlook.com로 삭제 지원을 요청하세요.</li>
+<li>일부 화면 설정(언어, 표시 설정 등)은 <b>기기에만</b>(시스템 UserDefaults) 저장됩니다. 기기를 벗어나지 않고 iCloud에도 동기화되지 않습니다.</li>
+<li><b>로컬 우선:</b> iCloud를 끄거나 네트워크가 없어도 앱은 오프라인으로 계속 동작하며 로컬 알림도 정상적으로 울립니다.</li>
+<li>Apple ID와 기기 암호는 안전하게 보관하세요. 이 데이터의 1차 보호 장치입니다.</li>
+</ul><h3>6. 방침 변경</h3><p>본 방침이 변경되면 이 페이지를 갱신하고 상단의「시행일」을 수정합니다. 중대한 변경(예: 새로운 데이터 수집 도입)은 앱 안에서도 눈에 띄게 알립니다. 최신 버전을 확인하려면 이 페이지를 주기적으로 확인해 주세요.</p><h3>7. 문의하기</h3><p>본 방침이나 사용자 데이터에 대한 질문·불만·삭제 요청은 <b>your.scheduleapp@outlook.com</b>로 메일 주세요. 통상 <b>3영업일 이내</b>에 회신합니다.</p>
 
 <h2 id="faq">지원 및 자주 묻는 질문</h2>
-<h3>데이터가 사라지나요?</h3><p>아니요. 데이터는 사용자의 iCloud에 있으며 iCloud가 정상인 한 Apple 계정과 함께 유지됩니다.</p><h3>새 폰으로 바꾸면?</h3><p>새 기기에서 같은 iCloud 계정으로 로그인하고 앱의 iCloud 동기화를 켜면 데이터가 자동으로 나타납니다.</p><h3>가족은 무엇을 볼 수 있나요?</h3><p>가족 그룹에 발행한 일정만 볼 수 있습니다. 개인 일정은 다른 사람에게 보이지 않습니다.</p><h3>개발자가 내 일정을 볼 수 있나요?</h3><p>볼 수 없습니다. 데이터는 사용자의 iCloud에 있으며 개발자에게는 접근 경로가 없습니다.</p>
+<h3>데이터가 사라지나요?</h3><p>아니요. 데이터는 사용자의 iCloud에 있으며 Apple 계정과 함께 유지됩니다. 앱을 삭제해도 iCloud 데이터는 삭제되지 않습니다.</p><h3>새 폰으로 바꾸면?</h3><p>새 기기에서 같은 iCloud 계정으로 로그인하고 앱의 iCloud 동기화를 켜면 데이터가 자동으로 나타납니다.</p><h3>가족은 무엇을 볼 수 있나요?</h3><p>가족 그룹에 게시한 일정만 볼 수 있습니다. 게시하지 않은 일정은 사용자의 iCloud 개인 데이터베이스에 있어 다른 사람에게 보이지 않습니다.</p><h3>개발자가 내 일정을 볼 수 있나요?</h3><p>볼 수 없습니다. 데이터는 사용자의 iCloud에 있으며 개발자에게는 접근 경로가 없습니다.</p><h3>알림이 울리지 않나요?</h3><p>「설정 → 알림」에서 본 앱의 알림 권한과 앱 안에서 알림이 켜져 있는지 확인하세요. iCloud 미로그인 시 앱은 단독 모드로 동작하며 로컬 알림은 계속 작동합니다.</p><h3>지원 언어</h3><p>10개 언어: 간체·번체 중국어, 영어, 일본어, 스페인어, 포르투갈어(BR), 프랑스어, 독일어, 한국어, 러시아어.</p><h3>문의</h3><p><b>your.scheduleapp@outlook.com</b>로 메일 — 3영업일 이내 회신.</p>
 
-<div class="footer">© Frank Zhou · 문의: your.scheduleapp@outlook.com.</div>
+<div class="footer">© 2026 Frank Zhou · ScheduleApp — 문의: your.scheduleapp@outlook.com.</div>
 </div>
 </body>
 </html>

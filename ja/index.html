@@ -1,71 +1,127 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="ScheduleApp のプライバシーポリシー：個人情報を一切収集せず、すべてのデータはあなた自身の iCloud に保存されます。">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ScheduleApp プライバシーポリシー＆サポート</title>
+<meta name="description" content="ScheduleApp のプライバシーポリシー：個人情報を一切収集せず、すべてのデータはあなた自身の iCloud に保存されます。">
+<link rel="canonical" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ja/">
+  <link rel="alternate" hreflang="en" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ja/">
+  <link rel="alternate" hreflang="es" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/es/">
+  <link rel="alternate" hreflang="pt-BR" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/pt-BR/">
+  <link rel="alternate" hreflang="fr" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/fr/">
+  <link rel="alternate" hreflang="de" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/de/">
+  <link rel="alternate" hreflang="ko" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ko/">
+  <link rel="alternate" hreflang="ru" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ru/">
+  <link rel="alternate" hreflang="x-default" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/">
+<meta property="og:title" content="ScheduleApp プライバシーポリシー＆サポート">
+<meta property="og:description" content="ScheduleApp のプライバシーポリシー：個人情報を一切収集せず、すべてのデータはあなた自身の iCloud に保存されます。">
 <style>
-:root{color-scheme:light dark;--bg:#ffffff;--fg:#1c1c1e;--fg2:#8a8a8e;--border:#d1d1d6;--quote:#f2f2f7;--accent:#0a84ff}
-@media (prefers-color-scheme:dark){:root{--bg:#000000;--fg:#f2f2f7;--fg2:#98989f;--border:#38383a;--quote:#1c1c1e;--accent:#0a84ff}}
-body{font-family:-apple-system,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;color:var(--fg);background:var(--bg);line-height:1.75;margin:0;padding:24px 16px;font-size:15px}
-.wrap{max-width:760px;margin:0 auto}
-h1{font-size:24px;margin:0 0 6px}
-h2{font-size:18px;margin:28px 0 8px;border-left:4px solid var(--accent);padding-left:10px}
-h3{font-size:15px;margin:14px 0 4px}
-p,li{margin:7px 0}
-.meta,.langs,.nav,.footer{color:var(--fg2);font-size:13px}
-.nav{margin:6px 0 0}
-.nav a{color:var(--accent);text-decoration:none;margin-right:14px}
-.langs{margin:10px 0 0}
-.langs a{color:var(--accent);text-decoration:none;margin-right:2px}
-blockquote{background:var(--quote);border-left:4px solid var(--fg2);margin:14px 0;padding:10px 14px;border-radius:6px}
-a{color:var(--accent)}
-code{background:var(--quote);padding:1px 5px;border-radius:4px;font-size:13px}
-.footer{margin-top:36px;border-top:1px solid var(--border);padding-top:12px}
+  :root{--bg:#f5f6f8;--card:#ffffff;--ink:#1d2129;--sub:#6b7280;--blue:#2563eb;
+        --blue-bg:#eff6ff;--green:#16a34a;--green-bg:#f0fdf4;--line:#e5e7eb;--tab:#374151;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.8;font-size:15px}
+  header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .head-inner{max-width:860px;margin:0 auto;padding:14px 20px 0}
+  h1{font-size:19px}
+  .head-meta{font-size:12.5px;color:var(--sub);margin:4px 0 8px}
+  .langbar{display:flex;flex-wrap:wrap;gap:6px;padding-bottom:8px}
+  .langbar a{font-size:12.5px;text-decoration:none;color:var(--tab);border:1px solid var(--line);
+             border-radius:999px;padding:3px 11px;background:#fff}
+  .langbar a.on{color:#fff;background:var(--blue);border-color:var(--blue)}
+  main{max-width:860px;margin:0 auto;padding:22px 20px 60px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin-bottom:16px}
+  .summary{background:var(--green-bg);border:1px solid #bbf7d0;border-radius:12px;padding:16px 20px;margin-bottom:18px;font-size:14.5px;color:#166534}
+  h2{font-size:20px;margin:26px 0 12px;display:flex;align-items:center;gap:8px;scroll-margin-top:110px}
+  h2::before{content:"";width:4px;height:20px;background:var(--blue);border-radius:2px}
+  h3{font-size:15.5px;margin:18px 0 6px;color:#111827}
+  p{margin:8px 0}
+  ul{margin:8px 0 8px 20px}
+  li{margin:4px 0}
+  code{background:#f3f4f6;border-radius:4px;padding:1px 6px;font-family:ui-monospace,Menlo,monospace;font-size:13px;word-break:break-all}
+  a{color:var(--blue)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0;background:var(--card)}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#f9fafb;font-weight:600;white-space:nowrap;width:130px}
+  footer{max-width:860px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-size:12.5px}
+  .disc{font-size:12.5px;color:var(--sub);margin-top:10px}
+  @media (max-width:600px){body{font-size:14.5px}.card{padding:16px 16px}h2{font-size:18px}}
 </style>
 </head>
 <body>
-<div class="wrap">
-<h1>📅 ScheduleApp プライバシーポリシー＆サポート</h1>
-<p class="meta">発効日：2026-09-14 ｜ 開発者：Frank Zhou ｜ お問い合わせ：your.scheduleapp@outlook.com</p>
-<p class="nav"><a href="#privacy">プライバシーポリシー</a><a href="#faq">サポート・よくある質問</a></p>
-<p class="langs">言語： <a href="/privacy-pages-scheduleapp/">English</a> · <a href="/privacy-pages-scheduleapp/zh-Hans/">简体中文</a> · <a href="/privacy-pages-scheduleapp/zh-Hant/">繁體中文</a> · <a href="/privacy-pages-scheduleapp/ja/">日本語</a> · <a href="/privacy-pages-scheduleapp/es/">Español</a> · <a href="/privacy-pages-scheduleapp/pt-BR/">Português (BR)</a> · <a href="/privacy-pages-scheduleapp/fr/">Français</a> · <a href="/privacy-pages-scheduleapp/de/">Deutsch</a> · <a href="/privacy-pages-scheduleapp/ko/">한국어</a> · <a href="/privacy-pages-scheduleapp/ru/">Русский</a></p>
-<blockquote><b>要点：</b> 本アプリは<b>個人情報を一切収集しません</b>。アカウント登録も、開発者サーバーも、広告・解析 SDK もありません。スケジュール・ToDo・リマインダー設定は<b>あなた自身の iCloud プライベートデータベース</b>（Apple CloudKit）だけに保存され、ファミリーグループ共有は Apple の CloudKit 共有機能（CKShare）によるものです。<b>開発者はデータを読み取ったり書き出したりすることはできません</b>。</blockquote>
-
+<header>
+  <div class="head-inner">
+    <h1>📅 ScheduleApp プライバシーポリシー＆サポート</h1>
+    <div class="head-meta">発効日：2026-09-14 ｜ 開発者：Frank Zhou ｜ お問い合わせ：your.scheduleapp@outlook.com</div>
+    <div class="langbar"><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/" class="">English</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hans/" class="">简体中文</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hant/" class="">繁體中文</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ja/" class="on">日本語</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/es/" class="">Español</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/pt-BR/" class="">Português (BR)</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/fr/" class="">Français</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/de/" class="">Deutsch</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ko/" class="">한국어</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ru/" class="">Русский</a></div>
+  </div>
+</header>
+<main>
+  <div class="summary"><b>要点：</b> 本アプリは<b>個人情報を一切収集しません</b>。アカウント登録も、開発者サーバーも、広告・解析 SDK もありません。スケジュール・ToDo・リマインダー設定は<b>あなた自身の iCloud プライベートデータベース</b>（Apple CloudKit）だけに保存され、ファミリーグループ共有は Apple の CloudKit 共有機能（CKShare）によるものです。<b>開発者はデータを読み取ったり書き出したりすることはできません</b>。</div>
 <h2 id="privacy">プライバシーポリシー</h2>
-<h3>1. 概要</h3><p>ScheduleApp は家庭向けのスケジュール・ToDo 管理アプリで、スケジュール作成、時刻になったときのリマインダー、ファミリーグループ共有、ホーム画面ウィジェット／ライブアクティビティ表示などを提供します。個人開発者（Frank Zhou）が独立して開発しており、<b>自前のサーバーもバックエンドデータベースも持ちません</b>。本ポリシーは、私たちがあなたの情報をどのように（実際には：一切）扱わないかを説明します。</p><h3>2. 収集する情報：なし</h3><p>ScheduleApp は<b>個人情報を一切収集しません</b>。具体的には：</p><ul>
-<li><b>登録もログインも不要</b>。アカウント体系はありません。氏名・メールアドレス・電話番号・連絡先・位置情報・写真・その他の識別子を要求・取得しません。家族の区別には Apple が提供する匿名の iCloud レコード名のみを使用し、氏名・メール・電話番号は含まれません。</li>
-<li><b>データはあなたの iCloud にだけ保存</b>。作成したスケジュール・ToDo・リマインダー設定は、あなたの Apple ID の iCloud プライベートデータベース（Apple CloudKit、コンテナ <code>iCloud.com.frankzhou.ScheduleApp</code>）に保存されます。データはあなたに帰属し Apple が保管し、<b>開発者はアクセス・読み取り・書き出しともできません</b>。</li>
-<li><b>ファミリーグループ共有</b>は Apple CloudKit の共有機能（CKShare）によるものです。自分が作成したスケジュールは自分の iCloud プライベートデータベースに保存され、ファミリーグループに公開したときだけ Apple 提供の iCloud 共有データベースに入り、招待した家族だけが閲覧できます。共有範囲は完全にあなたが管理し、いつでも停止できます。</li>
-</ul><p><b>デバイス機能とシステム権限：</b></p><ul>
-<li><b>通知</b> — 自分で設定したローカルリマインダー（スケジュール/ToDo のアラーム）専用です。広告・マーケティング content は一切ありません。リモート（サイレント）通知は <b>iCloud 同期のトリガー</b>としてのみ使用され、可視の通知を表示したりスケジュール内容を運んだりしません。</li>
-<li><b>ウィジェット／ライブアクティビティ</b> — ウィジェットやロック画面のデータは、デバイス上の App Group コンテナ経由でアプリとウィジェット間で受け渡されます。デバイスの外に出ず、サーバーへアップロードされることはありません。</li>
-<li><b>要求しない権限</b> — 位置情報・連絡先・カメラ・マイク・写真ライブラリ・App トラッキングの権限は要求しません。上記以外の権限宣言はありません。</li>
-</ul><h3>3. サードパーティ・トラッキング・広告：すべてなし</h3><ul>
-<li><b>サードパーティコードは一切なし</b> — 広告 SDK・解析 SDK・クラッシュレポート・アトリビューション・マーケティングpush コンポーネントなど、サードパーティ SDK に依存しません。</li>
-<li><b>トラッキングなし</b> — IDFA なし、App トラッキングの許可ダイアログなし、アプリ間/サイト間トラッキングなし、トラッキング Cookie・デバイスフィンガープリント・ローカル識別子なし。</li>
-<li><b>データの売買は一切しません</b> — ユーザーデータを販売・共有・取引せず、いかなる形のデータ収益化も行いません。広告やプロファイリングにも使用しません。</li>
-<li><b>ネットワーク通信はすべて Apple 向け</b> — 本ポリシーページの読み込みを除き、アプリの全ネットワーク通信は iCloud/CloudKit 同步（同期）であり、<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple のプライバシーポリシー</a>に準拠します。このページはサードパーティの静的ホスティング（GitHub Pages）でホストされています。このページの読み込みは、Apple 以外のサービスへの唯一の通信であり、アカウント情報やデバイス識別子は一切送信されません。</li>
-<li>アプリのプライバシーマニフェスト（PrivacyInfo.xcprivacy）で、ユーザーをトラッキングせずトラッキングドメインを使用しないことを App Store に宣言済みです。</li>
-</ul><h3>4. 子どものプライバシー</h3><ul>
-<li>ScheduleApp は一般向けの家庭用ツールであり、子ども向けに設計されたアプリではなく、特定年齢未満の子どもに向けた販売促進も行いません。</li>
-<li><b>本アプリは誰の（子どもを含む）個人情報も収集しません</b>。子どもが作成したスケジュールや ToDo も、その子（または保護者）自身の iCloud アカウントに保存されるだけで、開発者はアクセスできません。</li>
-<li>保護者が Apple「ファミリー共有」で子ども用 Apple ID を作成・管理する場合、そのアカウントは Apple のルールに従い、共有は保護者の管理下にあり、いつでも停止できます。</li>
-<li>知的な範囲でも未成年者の情報を収集してしまった（本アプリの構造上起こり得ません）と思われる場合は、your.scheduleapp@outlook.com までご連絡ください。直ちに削除いたします。</li>
-</ul><h3>5. データの保存・セキュリティ・削除</h3><ul>
-<li>すべてのデータはあなたの Apple ID の iCloud アカウント内にあり、Apple の暗号化とアクセス制御で保護されます。サーバー側のコピーは一切保持しません。（中国本土の Apple ID の iCloud データは、Apple の中国におけるクラウド運営者 GCBD（雲上貴州）が Apple のポリシーに従って運用しています。）</li>
-<li><b>アプリを削除しても iCloud データは自動的には消えません</b>（新しいデバイスでの復元のため）。すべて消去するには：iPhone/iPad の「設定 → [あなたの名前] → iCloud → ストレージを管理 → ScheduleApp → データを削除」から削除するか、アプリ内でスケジュール/ToDo とファミリーグループを削除するか、your.scheduleapp@outlook.com までメールでご依頼ください。</li>
-<li>少量の設定（言語や表示設定など）は<b>デバイス内だけ</b>（システムの UserDefaults）に保存され、デバイスの外に出ず、iCloud にも同期されません。</li>
-<li><b>ローカルファースト</b>：iCloud をオフにしていても、ネットワークがなくても、アプリはオフラインで動作し、ローカルリマインダーは通常どおり鳴ります。</li>
-<li>Apple ID とデバイスのパスコードは厳重に管理してください。このデータを守る第一の保護です。</li>
-</ul><h3>6. ポリシーの変更</h3><p>本ポリシーを変更する場合は、このページを更新し、上部の「発効日」を改訂します。重要な変更（例：新しいデータ収集の導入）は、アプリ内でもわかりやすくお知らせします。最新版を確認するため、定期的に本ページをご覧ください。</p><h3>7. お問い合わせ</h3><p>本ポリシーまたはあなたのデータに関するご質問・ご苦情・削除のご依頼は、<b>your.scheduleapp@outlook.com</b> までメールください。通常 <b>3 営業日以内</b>に返信します。</p>
-
-<h2 id="faq">サポート・よくある質問</h2>
-<h3>データが消えることは？</h3><p>いいえ。データはあなたの iCloud にあり、Apple アカウントとともに保持されます。アプリを削除しても iCloud データは消えません。</p><h3>新しい iPhone に機種変更したら？</h3><p>同じ iCloud アカウントでサインインし、本アプリの iCloud 同期を有効にすると、データは自動的に表示されます。</p><h3>家族に見えるのは？</h3><p>ファミリーグループに公開したスケジュールだけです。未公開のスケジュールはあなたの iCloud プライベートデータベースにあり、他人には見えません。</p><h3>開発者はスケジュールを読めますか？</h3><p>いいえ。データはあなたの iCloud にあり、開発者にアクセス手段はありません。</p><h3>リマインダーが鳴らない？</h3><p>「設定 → 通知」で本アプリの通知が許可されているか、アプリ内でリマインダーが有効かをご確認ください。iCloud 未ログイン時はスタンドアロンモードで動作し、ローカルリマインダーは有効です。</p><h3>対応言語は？</h3><p>10 言語：簡体字中国語・繁体字中国語・English・日本語・Español・Português (BR)・Français・Deutsch・한국어・Русский。</p><h3>お問い合わせ</h3><p>メール <b>your.scheduleapp@outlook.com</b> — 3 営業日以内に返信します。</p>
-
-<div class="footer">© 2026 Frank Zhou · ScheduleApp — ご質問は your.scheduleapp@outlook.com まで。</div>
-</div>
+  <div class="card">
+    <h3>1. 概要</h3>
+    <p>ScheduleApp は家庭向けのスケジュール・ToDo 管理アプリで、スケジュール作成、時刻になったときのリマインダー、ファミリーグループ共有、ホーム画面ウィジェット／ライブアクティビティ表示などを提供します。個人開発者（{dev}）が独立して開発しており、<b>自前のサーバーもバックエンドデータベースも持ちません</b>。本ポリシーは、私たちがあなたの情報をどのように（実際には：一切）扱わないかを説明します。</p>
+    <h3>2. 収集する情報：なし</h3>
+    <p>ScheduleApp は<b>個人情報を一切収集しません</b>。具体的には：</p>
+    <ul>
+      <li><b>登録もログインも不要</b>。アカウント体系はありません。氏名・メールアドレス・電話番号・連絡先・位置情報・写真・その他の識別子を要求・取得しません。家族の区別には Apple が提供する匿名の iCloud レコード名のみを使用し、氏名・メール・電話番号は含まれません。</li>
+      <li><b>データはあなたの iCloud にだけ保存</b>。作成したスケジュール・ToDo・リマインダー設定は、あなたの Apple ID の iCloud プライベートデータベース（Apple CloudKit、コンテナ <code>iCloud.com.frankzhou.ScheduleApp</code>）に保存されます。データはあなたに帰属し Apple が保管し、<b>開発者はアクセス・読み取り・書き出しともできません</b>。</li>
+      <li><b>ファミリーグループ共有</b>は Apple CloudKit の共有機能（CKShare）によるものです。自分が作成したスケジュールは自分の iCloud プライベートデータベースに保存され、ファミリーグループに公開したときだけ Apple 提供の iCloud 共有データベースに入り、招待した家族だけが閲覧できます。共有範囲は完全にあなたが管理し、いつでも停止できます。</li>
+    </ul>
+    <p><b>デバイス機能とシステム権限：</b></p>
+    <ul>
+      <li><b>通知</b> — 自分で設定したローカルリマインダー（スケジュール/ToDo のアラーム）専用です。広告・マーケティング content は一切ありません。リモート（サイレント）通知は <b>iCloud 同期のトリガー</b>としてのみ使用され、可視の通知を表示したりスケジュール内容を運んだりしません。</li>
+      <li><b>ウィジェット／ライブアクティビティ</b> — ウィジェットやロック画面のデータは、デバイス上の App Group コンテナ経由でアプリとウィジェット間で受け渡されます。デバイスの外に出ず、サーバーへアップロードされることはありません。</li>
+      <li><b>要求しない権限</b> — 位置情報・連絡先・カメラ・マイク・写真ライブラリ・App トラッキングの権限は要求しません。上記以外の権限宣言はありません。</li>
+    </ul>
+    <h3>3. サードパーティ・トラッキング・広告：すべてなし</h3>
+    <ul>
+      <li><b>サードパーティコードは一切なし</b> — 広告 SDK・解析 SDK・クラッシュレポート・アトリビューション・マーケティングpush コンポーネントなど、サードパーティ SDK に依存しません。</li>
+      <li><b>トラッキングなし</b> — IDFA なし、App トラッキングの許可ダイアログなし、アプリ間/サイト間トラッキングなし、トラッキング Cookie・デバイスフィンガープリント・ローカル識別子なし。</li>
+      <li><b>データの売買は一切しません</b> — ユーザーデータを販売・共有・取引せず、いかなる形のデータ収益化も行いません。広告やプロファイリングにも使用しません。</li>
+      <li><b>ネットワーク通信はすべて Apple 向け</b> — 本ポリシーページの読み込みを除き、アプリの全ネットワーク通信は iCloud/CloudKit 同步（同期）であり、<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple のプライバシーポリシー</a>に準拠します。このページはサードパーティの静的ホスティング（GitHub Pages）でホストされています。このページの読み込みは、Apple 以外のサービスへの唯一の通信であり、アカウント情報やデバイス識別子は一切送信されません。</li>
+      <li>アプリのプライバシーマニフェスト（PrivacyInfo.xcprivacy）で、ユーザーをトラッキングせずトラッキングドメインを使用しないことを App Store に宣言済みです。</li>
+    </ul>
+    <h3>4. 子どものプライバシー</h3>
+    <ul>
+      <li>ScheduleApp は一般向けの家庭用ツールであり、子ども向けに設計されたアプリではなく、特定年齢未満の子どもに向けた販売促進も行いません。</li>
+      <li><b>本アプリは誰の（子どもを含む）個人情報も収集しません</b>。子どもが作成したスケジュールや ToDo も、その子（または保護者）自身の iCloud アカウントに保存されるだけで、開発者はアクセスできません。</li>
+      <li>保護者が Apple「ファミリー共有」で子ども用 Apple ID を作成・管理する場合、そのアカウントは Apple のルールに従い、共有は保護者の管理下にあり、いつでも停止できます。</li>
+      <li>知的な範囲でも未成年者の情報を収集してしまった（本アプリの構造上起こり得ません）と思われる場合は、{mail} までご連絡ください。直ちに削除いたします。</li>
+    </ul>
+    <h3>5. データの保存・セキュリティ・削除</h3>
+    <ul>
+      <li>すべてのデータはあなたの Apple ID の iCloud アカウント内にあり、Apple の暗号化とアクセス制御で保護されます。サーバー側のコピーは一切保持しません。（中国本土の Apple ID の iCloud データは、Apple の中国におけるクラウド運営者 GCBD（雲上貴州）が Apple のポリシーに従って運用しています。）</li>
+      <li><b>アプリを削除しても iCloud データは自動的には消えません</b>（新しいデバイスでの復元のため）。すべて消去するには：iPhone/iPad の「設定 → [あなたの名前] → iCloud → ストレージを管理 → ScheduleApp → データを削除」から削除するか、アプリ内でスケジュール/ToDo とファミリーグループを削除するか、{mail} までメールでご依頼ください。</li>
+      <li>少量の設定（言語や表示設定など）は<b>デバイス内だけ</b>（システムの UserDefaults）に保存され、デバイスの外に出ず、iCloud にも同期されません。</li>
+      <li><b>ローカルファースト</b>：iCloud をオフにしていても、ネットワークがなくても、アプリはオフラインで動作し、ローカルリマインダーは通常どおり鳴ります。</li>
+      <li>Apple ID とデバイスのパスコードは厳重に管理してください。このデータを守る第一の保護です。</li>
+    </ul>
+    <h3>6. ポリシーの変更</h3>
+    <p>本ポリシーを変更する場合は、このページを更新し、上部の「発効日」を改訂します。重要な変更（例：新しいデータ収集の導入）は、アプリ内でもわかりやすくお知らせします。最新版を確認するため、定期的に本ページをご覧ください。</p>
+    <h3>7. お問い合わせ</h3>
+    <p>本ポリシーまたはあなたのデータに関するご質問・ご苦情・削除のご依頼は、<b>{mail}</b> までメールください。通常 <b>3 営業日以内</b>に返信します。</p>
+  </div>
+<h2 id="support">サポート・よくある質問</h2>
+  <div class="card">
+    <table>
+      <tr><th>データが消えることは？</th><td>いいえ。データはあなたの iCloud にあり、Apple アカウントとともに保持されます。アプリを削除しても iCloud データは消えません。</td></tr>
+      <tr><th>新しい iPhone に機種変更したら？</th><td>同じ iCloud アカウントでサインインし、本アプリの iCloud 同期を有効にすると、データは自動的に表示されます。</td></tr>
+      <tr><th>家族に見えるのは？</th><td>ファミリーグループに公開したスケジュールだけです。未公開のスケジュールはあなたの iCloud プライベートデータベースにあり、他人には見えません。</td></tr>
+      <tr><th>開発者はスケジュールを読めますか？</th><td>いいえ。データはあなたの iCloud にあり、開発者にアクセス手段はありません。</td></tr>
+      <tr><th>リマインダーが鳴らない？</th><td>「設定 → 通知」で本アプリの通知が許可されているか、アプリ内でリマインダーが有効かをご確認ください。iCloud 未ログイン時はスタンドアロンモードで動作し、ローカルリマインダーは有効です。</td></tr>
+      <tr><th>対応言語は？</th><td>10 言語：簡体字中国語・繁体字中国語・English・日本語・Español・Português (BR)・Français・Deutsch・한국어・Русский。</td></tr>
+      <tr><th>お問い合わせ</th><td>メール <b>{mail}</b> — 3 営業日以内に返信します。</td></tr>
+    </table>
+  </div>
+  <div class="disc">本ページは英文版の日本語訳です。訳文と英文版に相違がある場合は <a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/">英文版</a> を正とします。</div>
+</main>
+<footer>© 2026 Frank Zhou · ScheduleApp — ご質問は your.scheduleapp@outlook.com まで。</footer>
 </body>
 </html>

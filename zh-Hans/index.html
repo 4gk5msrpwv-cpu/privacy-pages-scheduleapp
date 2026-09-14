@@ -1,71 +1,127 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="日程提醒 App 隐私政策与支持：不收集任何个人信息，数据仅存储于用户本人 iCloud。">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>日程提醒 App 隐私政策与支持</title>
+<meta name="description" content="日程提醒 App 隐私政策与支持：不收集任何个人信息，数据仅存储于用户本人 iCloud。">
+<link rel="canonical" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hans/">
+  <link rel="alternate" hreflang="en" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ja/">
+  <link rel="alternate" hreflang="es" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/es/">
+  <link rel="alternate" hreflang="pt-BR" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/pt-BR/">
+  <link rel="alternate" hreflang="fr" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/fr/">
+  <link rel="alternate" hreflang="de" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/de/">
+  <link rel="alternate" hreflang="ko" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ko/">
+  <link rel="alternate" hreflang="ru" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ru/">
+  <link rel="alternate" hreflang="x-default" href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/">
+<meta property="og:title" content="日程提醒 App 隐私政策与支持">
+<meta property="og:description" content="日程提醒 App 隐私政策与支持：不收集任何个人信息，数据仅存储于用户本人 iCloud。">
 <style>
-:root{color-scheme:light dark;--bg:#ffffff;--fg:#1c1c1e;--fg2:#8a8a8e;--border:#d1d1d6;--quote:#f2f2f7;--accent:#0a84ff}
-@media (prefers-color-scheme:dark){:root{--bg:#000000;--fg:#f2f2f7;--fg2:#98989f;--border:#38383a;--quote:#1c1c1e;--accent:#0a84ff}}
-body{font-family:-apple-system,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;color:var(--fg);background:var(--bg);line-height:1.75;margin:0;padding:24px 16px;font-size:15px}
-.wrap{max-width:760px;margin:0 auto}
-h1{font-size:24px;margin:0 0 6px}
-h2{font-size:18px;margin:28px 0 8px;border-left:4px solid var(--accent);padding-left:10px}
-h3{font-size:15px;margin:14px 0 4px}
-p,li{margin:7px 0}
-.meta,.langs,.nav,.footer{color:var(--fg2);font-size:13px}
-.nav{margin:6px 0 0}
-.nav a{color:var(--accent);text-decoration:none;margin-right:14px}
-.langs{margin:10px 0 0}
-.langs a{color:var(--accent);text-decoration:none;margin-right:2px}
-blockquote{background:var(--quote);border-left:4px solid var(--fg2);margin:14px 0;padding:10px 14px;border-radius:6px}
-a{color:var(--accent)}
-code{background:var(--quote);padding:1px 5px;border-radius:4px;font-size:13px}
-.footer{margin-top:36px;border-top:1px solid var(--border);padding-top:12px}
+  :root{--bg:#f5f6f8;--card:#ffffff;--ink:#1d2129;--sub:#6b7280;--blue:#2563eb;
+        --blue-bg:#eff6ff;--green:#16a34a;--green-bg:#f0fdf4;--line:#e5e7eb;--tab:#374151;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+       background:var(--bg);color:var(--ink);line-height:1.8;font-size:15px}
+  header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .head-inner{max-width:860px;margin:0 auto;padding:14px 20px 0}
+  h1{font-size:19px}
+  .head-meta{font-size:12.5px;color:var(--sub);margin:4px 0 8px}
+  .langbar{display:flex;flex-wrap:wrap;gap:6px;padding-bottom:8px}
+  .langbar a{font-size:12.5px;text-decoration:none;color:var(--tab);border:1px solid var(--line);
+             border-radius:999px;padding:3px 11px;background:#fff}
+  .langbar a.on{color:#fff;background:var(--blue);border-color:var(--blue)}
+  main{max-width:860px;margin:0 auto;padding:22px 20px 60px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin-bottom:16px}
+  .summary{background:var(--green-bg);border:1px solid #bbf7d0;border-radius:12px;padding:16px 20px;margin-bottom:18px;font-size:14.5px;color:#166534}
+  h2{font-size:20px;margin:26px 0 12px;display:flex;align-items:center;gap:8px;scroll-margin-top:110px}
+  h2::before{content:"";width:4px;height:20px;background:var(--blue);border-radius:2px}
+  h3{font-size:15.5px;margin:18px 0 6px;color:#111827}
+  p{margin:8px 0}
+  ul{margin:8px 0 8px 20px}
+  li{margin:4px 0}
+  code{background:#f3f4f6;border-radius:4px;padding:1px 6px;font-family:ui-monospace,Menlo,monospace;font-size:13px;word-break:break-all}
+  a{color:var(--blue)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0;background:var(--card)}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{background:#f9fafb;font-weight:600;white-space:nowrap;width:130px}
+  footer{max-width:860px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-size:12.5px}
+  .disc{font-size:12.5px;color:var(--sub);margin-top:10px}
+  @media (max-width:600px){body{font-size:14.5px}.card{padding:16px 16px}h2{font-size:18px}}
 </style>
 </head>
 <body>
-<div class="wrap">
-<h1>📅 日程提醒 隐私政策与支持</h1>
-<p class="meta">生效日期：2026-09-14 ｜ 开发者：Frank Zhou ｜ 联系邮箱：your.scheduleapp@outlook.com</p>
-<p class="nav"><a href="#privacy">隐私政策</a><a href="#faq">支持与常见问题</a></p>
-<p class="langs">语言： <a href="/privacy-pages-scheduleapp/">English</a> · <a href="/privacy-pages-scheduleapp/zh-Hans/">简体中文</a> · <a href="/privacy-pages-scheduleapp/zh-Hant/">繁體中文</a> · <a href="/privacy-pages-scheduleapp/ja/">日本語</a> · <a href="/privacy-pages-scheduleapp/es/">Español</a> · <a href="/privacy-pages-scheduleapp/pt-BR/">Português (BR)</a> · <a href="/privacy-pages-scheduleapp/fr/">Français</a> · <a href="/privacy-pages-scheduleapp/de/">Deutsch</a> · <a href="/privacy-pages-scheduleapp/ko/">한국어</a> · <a href="/privacy-pages-scheduleapp/ru/">Русский</a></p>
-<blockquote><b>一句话总结：</b> 本应用<b>不收集任何个人信息</b>：无账号系统、无开发者服务器、无第三方统计或广告 SDK。你的日程、待办与提醒设置<b>只保存在你自己的 iCloud 私有数据库</b>（Apple CloudKit）中；家庭共享基于 Apple CloudKit 共享能力（CKShare）实现，<b>开发者无法读取或导出你的数据</b>。</blockquote>
-
+<header>
+  <div class="head-inner">
+    <h1>📅 日程提醒 隐私政策与支持</h1>
+    <div class="head-meta">生效日期：2026-09-14 ｜ 开发者：Frank Zhou ｜ 联系邮箱：your.scheduleapp@outlook.com</div>
+    <div class="langbar"><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/" class="">English</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hans/" class="on">简体中文</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/zh-Hant/" class="">繁體中文</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ja/" class="">日本語</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/es/" class="">Español</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/pt-BR/" class="">Português (BR)</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/fr/" class="">Français</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/de/" class="">Deutsch</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ko/" class="">한국어</a><a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/ru/" class="">Русский</a></div>
+  </div>
+</header>
+<main>
+  <div class="summary"><b>一句话总结：</b> 本应用<b>不收集任何个人信息</b>：无账号系统、无开发者服务器、无第三方统计或广告 SDK。你的日程、待办与提醒设置<b>只保存在你自己的 iCloud 私有数据库</b>（Apple CloudKit）中；家庭共享基于 Apple CloudKit 共享能力（CKShare）实现，<b>开发者无法读取或导出你的数据</b>。</div>
 <h2 id="privacy">隐私政策</h2>
-<h3>一、概述</h3><p>日程提醒（ScheduleApp）是一款面向家庭场景的日程与待办管理应用，提供日程创建、到点提醒、家庭组共享以及主屏幕小组件/灵动岛展示等功能。本应用由个人开发者（Frank Zhou）独立开发，<b>无自建服务器、无后台数据库</b>。本政策说明我们如何处理（事实上是：不处理）你的信息。</p><h3>二、我们收集哪些信息：不收集</h3><p>本应用<b>不主动收集任何个人信息</b>。具体而言：</p><ul>
-<li><b>无需注册、无需登录</b>：本应用没有账号体系，不要求也不获取姓名、邮箱、手机号、通讯录、位置、相册或任何身份标识。家庭成员由 Apple 提供的匿名 iCloud 记录名区分，该标识不含姓名、邮箱或电话号码。</li>
-<li><b>日程数据仅存于你的 iCloud</b>：你创建的日程、待办与提醒设置，保存在你本人 Apple ID 下的 iCloud 私有数据库（Apple CloudKit，容器 <code>iCloud.com.frankzhou.ScheduleApp</code>）。数据归你所有，由 Apple 保管，<b>开发者无法访问、读取或导出</b>。</li>
-<li><b>家庭组共享</b>：基于 Apple CloudKit 共享能力（CKShare）实现。你自己创建的日程保存在你的 iCloud 私有数据库；只有当你把日程发布到家庭组时，该日程才会进入 Apple 提供的 iCloud 共享数据库，且仅你邀请的家庭成员可见。共享范围完全由你控制，可随时停止共享。</li>
-</ul><p><b>设备能力与系统权限：</b></p><ul>
-<li><b>通知</b>：仅用于你自行设定的本地到点提醒（日程/待办闹钟），不含任何广告或营销内容。其中远程（静默）通知仅用作 <b>iCloud 数据同步的触发信号</b>，不会产生任何可见提示，也不承载日程内容。</li>
-<li><b>小组件与灵动岛</b>：小组件与锁屏数据通过设备本地的 App Group 容器在主应用与小组件之间传递，不离开你的设备，不上传任何服务器。</li>
-<li><b>不申请的权限</b>：本应用不申请、不使用定位、通讯录、相机、麦克风、相册、蓝牙跟踪（App 追踪透明度）等权限，工程内无其他任何权限声明。</li>
-</ul><h3>三、第三方、追踪与广告：均无</h3><ul>
-<li><b>无任何第三方代码</b>：工程不依赖任何第三方 SDK——无广告 SDK、无统计/分析 SDK、无崩溃上报、归因或营销推送组件。</li>
-<li><b>不追踪</b>：无 IDFA、无 App 追踪授权请求、无跨应用/跨站点追踪、无追踪 Cookie、设备指纹或本地标识符。</li>
-<li><b>绝不出售数据</b>：我们不出售、不共享、不交易用户数据，不进行任何形式的数据变现，数据不用于广告投放或用户画像。</li>
-<li><b>所有网络请求只发往 Apple</b>：除加载本政策页面外，应用的全部网络请求均为 iCloud/CloudKit 同步，受 <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple 隐私政策</a>约束。本页面托管在第三方静态托管服务（GitHub Pages）上；加载本页是应用对非 Apple 服务的唯一网络请求，且不携带任何账号或设备标识。</li>
-<li>我们已在应用隐私清单（PrivacyInfo.xcprivacy）中向 App Store 声明：不追踪用户、不使用任何追踪域名。</li>
-</ul><h3>四、未成年人保护</h3><ul>
-<li>本应用是面向一般受众的家庭工具应用，不是专为儿童设计的应用，也不面向任何特定年龄以下的儿童进行营销。</li>
-<li><b>本应用不收集任何人的个人信息（包括儿童）</b>：儿童创建的日程与待办同样只保存在其本人（或家长）的 iCloud 账户中，开发者无法访问。</li>
-<li>若家长通过 Apple「家人共享」为儿童创建并管理子账户，相关账户遵循 Apple 规则；共享始终处于家长控制之下，可随时停止。</li>
-<li>如你认为我们在不知情的情况下收集了未成年人信息（本应用架构上不会发生），请发送邮件至 your.scheduleapp@outlook.com，我们将立即协助删除。</li>
-</ul><h3>五、数据存储、安全与删除</h3><ul>
-<li>全部数据存于你 Apple ID 的 iCloud 账户中，受 Apple 的加密与访问控制保护；我们不保留任何服务器端副本。（中国大陆 Apple ID 的 iCloud 数据由云上贵州——Apple 在中国的云服务运营方——依 Apple 政策运营。）</li>
-<li><b>删除应用不会自动删除 iCloud 数据</b>（以便你在新设备恢复）。如需彻底删除：在 iPhone/iPad 上进入<i>「设置 → 你的 Apple ID → iCloud → 管理账户储存空间 → 日程提醒 → 删除数据」</i>；或在应用内删除日程/待办与家庭组；也可发送邮件至 your.scheduleapp@outlook.com 获取删除协助。</li>
-<li>少量界面偏好（语言、显示设置等）保存在<b>设备本地</b>（系统 UserDefaults），不离开你的设备，也不同步到 iCloud。</li>
-<li><b>本地优先</b>：即使未开启 iCloud 或网络不可用，应用仍可离线记录日程并正常触发本地提醒。</li>
-<li>请妥善保管你的 Apple ID 与设备密码——它们是这份数据的首要保护。</li>
-</ul><h3>六、政策更新</h3><p>如本政策发生变更，我们将更新本页面并修订顶部的「生效日期」。重大变更（例如引入任何新的数据收集）还将在应用内显著提示。请定期查看本页以获取最新版本。</p><h3>七、联系我们</h3><p>如对本政策或你的数据有任何疑问、投诉或删除请求，请发送邮件至 <b>your.scheduleapp@outlook.com</b>。我们通常会在 <b>3 个工作日内</b>回复。</p>
-
-<h2 id="faq">支持与常见问题</h2>
-<h3>数据会丢失吗？</h3><p>不会。数据保存在你的 iCloud 中，随你的 Apple 账户保留；删除应用不会删除 iCloud 数据。</p><h3>换新手机怎么办？</h3><p>在新设备登录同一 iCloud 账户并开启本应用的 iCloud 同步，数据会自动出现。</p><h3>家庭成员能看到什么？</h3><p>只有你发布到家庭组的日程。未发布的日程保存在你的 iCloud 私有数据库，其他成员不可见。</p><h3>开发者能看到我的日程吗？</h3><p>不能。数据在你的 iCloud 中，开发者没有访问通道。</p><h3>提醒没有响？</h3><p>请检查系统「设置 → 通知」中本应用的通知权限，以及应用内提醒是否开启；未登录 iCloud 时应用以单机模式运行，本地提醒仍然有效。</p><h3>支持哪些语言？</h3><p>10 种：简体中文、繁體中文、English、日本語、Español、Português (BR)、Français、Deutsch、한국어、Русский。</p><h3>联系我们</h3><p>邮件 <b>your.scheduleapp@outlook.com</b>，3 个工作日内回复。</p>
-
-<div class="footer">© 2026 Frank Zhou · 日程提醒 ScheduleApp — 如有疑问请发送邮件至 your.scheduleapp@outlook.com。</div>
-</div>
+  <div class="card">
+    <h3>一、概述</h3>
+    <p>日程提醒（ScheduleApp）是一款面向家庭场景的日程与待办管理应用，提供日程创建、到点提醒、家庭组共享以及主屏幕小组件/灵动岛展示等功能。本应用由个人开发者（{dev}）独立开发，<b>无自建服务器、无后台数据库</b>。本政策说明我们如何处理（事实上是：不处理）你的信息。</p>
+    <h3>二、我们收集哪些信息：不收集</h3>
+    <p>本应用<b>不主动收集任何个人信息</b>。具体而言：</p>
+    <ul>
+      <li><b>无需注册、无需登录</b>：本应用没有账号体系，不要求也不获取姓名、邮箱、手机号、通讯录、位置、相册或任何身份标识。家庭成员由 Apple 提供的匿名 iCloud 记录名区分，该标识不含姓名、邮箱或电话号码。</li>
+      <li><b>日程数据仅存于你的 iCloud</b>：你创建的日程、待办与提醒设置，保存在你本人 Apple ID 下的 iCloud 私有数据库（Apple CloudKit，容器 <code>iCloud.com.frankzhou.ScheduleApp</code>）。数据归你所有，由 Apple 保管，<b>开发者无法访问、读取或导出</b>。</li>
+      <li><b>家庭组共享</b>：基于 Apple CloudKit 共享能力（CKShare）实现。你自己创建的日程保存在你的 iCloud 私有数据库；只有当你把日程发布到家庭组时，该日程才会进入 Apple 提供的 iCloud 共享数据库，且仅你邀请的家庭成员可见。共享范围完全由你控制，可随时停止共享。</li>
+    </ul>
+    <p><b>设备能力与系统权限：</b></p>
+    <ul>
+      <li><b>通知</b>：仅用于你自行设定的本地到点提醒（日程/待办闹钟），不含任何广告或营销内容。其中远程（静默）通知仅用作 <b>iCloud 数据同步的触发信号</b>，不会产生任何可见提示，也不承载日程内容。</li>
+      <li><b>小组件与灵动岛</b>：小组件与锁屏数据通过设备本地的 App Group 容器在主应用与小组件之间传递，不离开你的设备，不上传任何服务器。</li>
+      <li><b>不申请的权限</b>：本应用不申请、不使用定位、通讯录、相机、麦克风、相册、蓝牙跟踪（App 追踪透明度）等权限，工程内无其他任何权限声明。</li>
+    </ul>
+    <h3>三、第三方、追踪与广告：均无</h3>
+    <ul>
+      <li><b>无任何第三方代码</b>：工程不依赖任何第三方 SDK——无广告 SDK、无统计/分析 SDK、无崩溃上报、归因或营销推送组件。</li>
+      <li><b>不追踪</b>：无 IDFA、无 App 追踪授权请求、无跨应用/跨站点追踪、无追踪 Cookie、设备指纹或本地标识符。</li>
+      <li><b>绝不出售数据</b>：我们不出售、不共享、不交易用户数据，不进行任何形式的数据变现，数据不用于广告投放或用户画像。</li>
+      <li><b>所有网络请求只发往 Apple</b>：除加载本政策页面外，应用的全部网络请求均为 iCloud/CloudKit 同步，受 <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple 隐私政策</a>约束。本页面托管在第三方静态托管服务（GitHub Pages）上；加载本页是应用对非 Apple 服务的唯一网络请求，且不携带任何账号或设备标识。</li>
+      <li>我们已在应用隐私清单（PrivacyInfo.xcprivacy）中向 App Store 声明：不追踪用户、不使用任何追踪域名。</li>
+    </ul>
+    <h3>四、未成年人保护</h3>
+    <ul>
+      <li>本应用是面向一般受众的家庭工具应用，不是专为儿童设计的应用，也不面向任何特定年龄以下的儿童进行营销。</li>
+      <li><b>本应用不收集任何人的个人信息（包括儿童）</b>：儿童创建的日程与待办同样只保存在其本人（或家长）的 iCloud 账户中，开发者无法访问。</li>
+      <li>若家长通过 Apple「家人共享」为儿童创建并管理子账户，相关账户遵循 Apple 规则；共享始终处于家长控制之下，可随时停止。</li>
+      <li>如你认为我们在不知情的情况下收集了未成年人信息（本应用架构上不会发生），请发送邮件至 {mail}，我们将立即协助删除。</li>
+    </ul>
+    <h3>五、数据存储、安全与删除</h3>
+    <ul>
+      <li>全部数据存于你 Apple ID 的 iCloud 账户中，受 Apple 的加密与访问控制保护；我们不保留任何服务器端副本。（中国大陆 Apple ID 的 iCloud 数据由云上贵州——Apple 在中国的云服务运营方——依 Apple 政策运营。）</li>
+      <li><b>删除应用不会自动删除 iCloud 数据</b>（以便你在新设备恢复）。如需彻底删除：在 iPhone/iPad 上进入<i>「设置 → 你的 Apple ID → iCloud → 管理账户储存空间 → 日程提醒 → 删除数据」</i>；或在应用内删除日程/待办与家庭组；也可发送邮件至 {mail} 获取删除协助。</li>
+      <li>少量界面偏好（语言、显示设置等）保存在<b>设备本地</b>（系统 UserDefaults），不离开你的设备，也不同步到 iCloud。</li>
+      <li><b>本地优先</b>：即使未开启 iCloud 或网络不可用，应用仍可离线记录日程并正常触发本地提醒。</li>
+      <li>请妥善保管你的 Apple ID 与设备密码——它们是这份数据的首要保护。</li>
+    </ul>
+    <h3>六、政策更新</h3>
+    <p>如本政策发生变更，我们将更新本页面并修订顶部的「生效日期」。重大变更（例如引入任何新的数据收集）还将在应用内显著提示。请定期查看本页以获取最新版本。</p>
+    <h3>七、联系我们</h3>
+    <p>如对本政策或你的数据有任何疑问、投诉或删除请求，请发送邮件至 <b>{mail}</b>。我们通常会在 <b>3 个工作日内</b>回复。</p>
+  </div>
+<h2 id="support">支持与常见问题</h2>
+  <div class="card">
+    <table>
+      <tr><th>数据会丢失吗？</th><td>不会。数据保存在你的 iCloud 中，随你的 Apple 账户保留；删除应用不会删除 iCloud 数据。</td></tr>
+      <tr><th>换新手机怎么办？</th><td>在新设备登录同一 iCloud 账户并开启本应用的 iCloud 同步，数据会自动出现。</td></tr>
+      <tr><th>家庭成员能看到什么？</th><td>只有你发布到家庭组的日程。未发布的日程保存在你的 iCloud 私有数据库，其他成员不可见。</td></tr>
+      <tr><th>开发者能看到我的日程吗？</th><td>不能。数据在你的 iCloud 中，开发者没有访问通道。</td></tr>
+      <tr><th>提醒没有响？</th><td>请检查系统「设置 → 通知」中本应用的通知权限，以及应用内提醒是否开启；未登录 iCloud 时应用以单机模式运行，本地提醒仍然有效。</td></tr>
+      <tr><th>支持哪些语言？</th><td>10 种：简体中文、繁體中文、English、日本語、Español、Português (BR)、Français、Deutsch、한국어、Русский。</td></tr>
+      <tr><th>联系我们</th><td>邮件 <b>{mail}</b>，3 个工作日内回复。</td></tr>
+    </table>
+  </div>
+  <div class="disc">本页为英文版的中文译本，如译文与英文版存在歧义，以 <a href="https://4gk5msrpwv-cpu.github.io/privacy-pages-scheduleapp/">英文版</a> 为准。</div>
+</main>
+<footer>© 2026 Frank Zhou · 日程提醒 ScheduleApp — 如有疑问请发送邮件至 your.scheduleapp@outlook.com。</footer>
 </body>
 </html>
